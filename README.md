@@ -27,3 +27,7 @@ Pull and run docker-compose with remote server.
 - `REGISTRY`: Registry to pull from
 - `IMAGE_NAME`: Name of image to pull
 - `DOCKER_PREFIX`: Project name passed to Compose
+
+## Random words
+
+Why it still not works?!!
