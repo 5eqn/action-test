@@ -1,6 +1,10 @@
 name: Deploy
 
-on: create
+on:
+  workflow_run:
+    workflows: ["Docker"]
+    types:
+      - completed
 
 jobs:
   deploy:
