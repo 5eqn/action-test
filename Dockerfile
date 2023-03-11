@@ -1,2 +1,2 @@
 FROM alpine:3.17
-CMD ["/bin/bash"]
+CMD ["ls -l"]

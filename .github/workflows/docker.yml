@@ -5,7 +5,9 @@ name: Docker
 # separate terms of service, privacy policy, and support
 # documentation.
 
-on: delete
+on:
+  push:
+    branches: ["main"]
 
 env:
   # Use docker.io for Docker Hub if empty
