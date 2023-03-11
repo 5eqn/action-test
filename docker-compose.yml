@@ -2,4 +2,4 @@ version: "3.8"
 
 services:
   server:
-    image: ccr.ccs.tencentyun.com/5eqn/action-test:latest
+    image: ccr.ccs.tencentyun.com/5eqn/action-test:main
