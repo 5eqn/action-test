@@ -16,10 +16,10 @@ Pull and run docker-compose with remote server.
 
 - `REGISTRY_USERNAME`: The username of the image registry
 - `REGISTRY_PASSWORD`: The password for registry
-  - Content of `~/.ssh/known_hosts` of localhost
 - `SSH_HOST`: Host of your server
 - `SSH_USER`: The user to log in
 - `SSH_HOST_PUBLIC_KEY`: Public key of your server
+  - Content of `~/.ssh/known_hosts` of localhost
 - `SSH_PRIVATE_KEY`: Private key of your localhost
 
 ### Variables
@@ -27,7 +27,3 @@ Pull and run docker-compose with remote server.
 - `REGISTRY`: Registry to pull from
 - `IMAGE_NAME`: Name of image to pull
 - `DOCKER_PREFIX`: Project name passed to Compose
-
-## Random words
-
-Why it still not works?!!
